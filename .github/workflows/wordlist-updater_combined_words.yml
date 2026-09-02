@@ -13,6 +13,9 @@ on:
       - 'Discovery/Web-Content/raft-large-words-lowercase.txt'
       - 'Discovery/Web-Content/raft-large-words.txt'
 
+permissions:
+  contents: write
+
 jobs:
   update_combined_words:
     runs-on: ubuntu-latest
