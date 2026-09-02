@@ -17,6 +17,9 @@ on:
       - 'Discovery/Web-Content/raft-small-directories-lowercase.txt'
       - 'Discovery/Web-Content/raft-small-directories.txt'
 
+permissions:
+  contents: write
+
 jobs:
   update_combined_directories:
     runs-on: ubuntu-latest
